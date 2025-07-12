@@ -69,7 +69,7 @@ def predict_next_word(seed_text):
         return "Error", "Could not generate prediction"
 
 # Create Gradio interface
-with gr.Blocks(title="Shakespearean Next Word Predictor", theme="soft") as app:
+with gr.Blocks(title="Next Word Predictor", theme="soft") as app:
     gr.Markdown("# 🎭 Next Word Predictor using Bidirectional LSTM")
     
     with gr.Row():
